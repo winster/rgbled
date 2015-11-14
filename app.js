@@ -46,4 +46,5 @@ app.stop = function(){
     led_red.unexport();    // Unexport GPIO and free resources
     led_green.unexport();
     led_blue.unexport();
+    console.log('released fully');
 };
